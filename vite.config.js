@@ -4,12 +4,16 @@ import tailwindcss from '@tailwindcss/vite'
 import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [react(),tailwindcss()],
-  base: './',
-  resolve: {
-    alias: {
-      "@": fileURLToPath(new URL('./src', import.meta.url)),
+export default defineConfig(({ command }) => {
+  const base = command === 'build' ? '/Olfactory-Science/' : '/'
+  
+  return {
+    plugins: [react(),tailwindcss()],
+    base: base,
+    resolve: {
+      alias: {
+        "@": fileURLToPath(new URL('./src', import.meta.url)),
+      },
     },
-  },
+  }
 })
