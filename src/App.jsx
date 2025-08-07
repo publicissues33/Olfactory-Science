@@ -397,7 +397,7 @@ function App() {
               </h3>
               <div className="text-center">
                 <img 
-                  src="src/assets/olfactory-system-chinese-3.webp" 
+                  src="/olfactory-system-chinese-3.webp" 
                   alt="嗅覺系統示意圖" 
                   className="w-full h-auto rounded-lg transition-transform duration-300 hover:scale-110 cursor-pointer"
                 />  
