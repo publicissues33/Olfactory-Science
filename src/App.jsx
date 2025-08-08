@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button.jsx'
 import { AlertTriangle, CheckCircle, X, Brain, AlertCircle, Microscope, Scale, Shield } from 'lucide-react'
+import olfactorySystemImage from '/olfactory-system-chinese-3.jpg'
 import './App.css'
 
 function App() {
@@ -397,7 +398,7 @@ function App() {
               </h3>
               <div className="text-center">
                 <img 
-                  src="/Olfactory-Science/olfactory-system-chinese-3.jpg" 
+                  src={olfactorySystemImage} 
                   alt="嗅覺系統示意圖" 
                   className="w-full h-auto rounded-lg transition-transform duration-300 hover:scale-110 cursor-pointer"
                 />  
