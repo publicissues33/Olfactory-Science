@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button.jsx'
 import { AlertTriangle, CheckCircle, X, Brain, AlertCircle, Microscope, Scale, Shield } from 'lucide-react'
-import olfactorySystemImage from '/olfactory-system-chinese-3.jpg'
+import olfactorySystemImage from './assets/olfactory-system-chinese-3.jpg'
 import './App.css'
 
 function App() {
